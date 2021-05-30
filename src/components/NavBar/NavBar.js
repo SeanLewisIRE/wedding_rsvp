@@ -6,7 +6,7 @@ import './NavBar.css'
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className="container">
+        <div className="hero-container">
             <div className="nav">
                 <nav>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
