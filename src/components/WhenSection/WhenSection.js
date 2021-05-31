@@ -17,29 +17,29 @@ const WhenSection = () => {
         
             <div className='timeline bg-gray-200'>
                 <h4 >Thursday</h4>
-                <div class="tl-container right">
-                    <div class="content">
+                <div className="tl-container right">
+                    <div className="content">
                         <h2>CEREMONY</h2>
                         <p>Church</p>
                         <p>*time*</p>
                     </div>
                 </div>
-                <div class="tl-container left">
-                    <div class="content">
+                <div className="tl-container left">
+                    <div className="content">
                         <h3>DRINKS RECEPTION</h3>
                         <p>Tankardstown House</p>
                     </div>
                 </div>
-                <div class="tl-container right">
-                    <div class="content">
+                <div className="tl-container right">
+                    <div className="content">
                         <h3>DINNER</h3>
                         <p>Tankardstown</p>
                         <p>*Sub address if known*</p>
                     </div>
                 </div>
                 <h4>Friday</h4>
-                <div class="tl-container left">
-                    <div class="content">
+                <div className="tl-container left">
+                    <div className="content">
                         <h3>BBQ</h3>
                         <p>Location</p>
                         <p>*time*</p>

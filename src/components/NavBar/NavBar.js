@@ -15,35 +15,35 @@ const NavBar = () => {
                                 <div className="hidden md:block">
                                     <div className="ml-10 flex items-baseline space-x-4">
                                         <a
-                                            href="#"
+                                            href="https://www.google.ie/"
                                             className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Dashboard
-                    </a>
+                                        </a>
 
                                         <a
-                                            href="#"
+                                            href="https://www.google.ie/"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Team
-                    </a>
+                                        </a>
 
                                         <a
-                                            href="#"
+                                            href="https://www.google.ie/"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Projects
-                    </a>
+                                        </a>
 
                                         <a
-                                            href="#"
+                                            href="https://www.google.ie/"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Calendar
-                    </a>
+                                        </a>
 
                                         <a
-                                            href="#"
+                                            href="https://www.google.ie/"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Reports
@@ -112,39 +112,39 @@ const NavBar = () => {
                             <div className="md:hidden" id="mobile-menu">
                                 <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                                     <a
-                                        href="#"
+                                        href="https://www.google.ie/"
                                         className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         Dashboard
-                    </a>
+                                    </a>
 
                                     <a
-                                        href="#"
+                                        href="https://www.google.ie/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         Team
-                    </a>
+                                    </a>
 
                                     <a
-                                        href="#"
+                                        href="https://www.google.ie/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         Projects
-                    </a>
+                                    </a>
 
                                     <a
-                                        href="#"
+                                        href="https://www.google.ie/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         Calendar
-                    </a>
+                                    </a>
 
                                     <a
-                                        href="#"
+                                        href="https://www.google.ie/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         Reports
-                    </a>
+                                    </a>
                                 </div>
                             </div>
                         )}

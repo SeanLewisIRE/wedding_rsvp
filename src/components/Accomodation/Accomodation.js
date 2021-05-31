@@ -1,6 +1,26 @@
 import React from 'react';
+import AccomodationCard from './AccomodationCard'
 import boyneHouse from '../../static/photos/boyneHouse.jpeg'
+
 const Accomodation = () => {
+
+    const accom = [
+        {
+            'name': 'BOYNE HOUSE SLANE',
+            'image': boyneHouse,
+            'number': '+353 41 982 4621',
+            'numberHref': 'tel:+353419824621',
+            'website': 'https://www.boynehouseslane.ie'
+        },
+        {
+            'name': 'The D Hotel',
+            'image': '',
+            'number': '+353 41 987 7700',
+            'numberHref': 'tel:+353419877700',
+            'website': 'https://www.thedhotel.com'
+        }
+    ]
+
     return(
         <div className="accomodation-container bg-white">
             <h2>Accomodation</h2>
@@ -16,10 +36,14 @@ const Accomodation = () => {
 
             <h3 className='line-break-header'>Closest Places</h3>
             <div className='list'>
-                <div className=''>
-                    <h6>BOYNE HOUSE SLANE</h6>
-                    <img src={boyneHouse} alt='room at boyne house hotel, slane'/>
-                </div>
+                {accom.map(item => (
+                    <AccomodationCard 
+                        name={item.name}
+                        image={item.image}
+                        number={item.number}
+                        website={item.website}
+                    />
+                ))}
             </div>
         </div>
     )
