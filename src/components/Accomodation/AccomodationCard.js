@@ -2,7 +2,7 @@ import React from 'react';
 import { AiTwotonePhone } from 'react-icons/ai'
 import { CgWebsite } from 'react-icons/cg'
 const AccomodationCard = (props) => {
-    console.log(props)
+
     return (
         <div className='accom-card-image'>
             <h6>{props.name}</h6>

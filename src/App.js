@@ -6,6 +6,10 @@ import WhereSection from './components/WhereSection/WhereSection'
 import WhenSection from './components/WhenSection/WhenSection'
 import Accomodation from './components/Accomodation/Accomodation'
 import Directions from './components/Directions/Directions'
+import Rsvp from './components/Rsvp/Rsvp'
+import GoodToKnow from './components/GoodToKnow/GoodToKnow'
+
+
 function App() {
   return (
     <div className="App bg-current">
@@ -16,6 +20,8 @@ function App() {
       <WhenSection />
       <Accomodation />
       <Directions />
+      <Rsvp />
+
     </div>
   );
 }

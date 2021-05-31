@@ -10,14 +10,16 @@ const Accomodation = () => {
             'image': boyneHouse,
             'number': '+353 41 982 4621',
             'numberHref': 'tel:+353419824621',
-            'website': 'https://www.boynehouseslane.ie'
+            'website': 'https://www.boynehouseslane.ie',
+            'key': 1
         },
         {
             'name': 'The D Hotel',
             'image': '',
             'number': '+353 41 987 7700',
             'numberHref': 'tel:+353419877700',
-            'website': 'https://www.thedhotel.com'
+            'website': 'https://www.thedhotel.com',
+            'key': 2
         }
     ]
 
@@ -38,6 +40,7 @@ const Accomodation = () => {
             <div className='list'>
                 {accom.map(item => (
                     <AccomodationCard 
+                        key={item.key}
                         name={item.name}
                         image={item.image}
                         number={item.number}
@@ -45,6 +48,9 @@ const Accomodation = () => {
                     />
                 ))}
             </div>
+
+            <h3 className='line-break-header'>Shuttle Bus</h3>
+
         </div>
     )
 }
