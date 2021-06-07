@@ -15,6 +15,10 @@ h3 {
   font-weight: 500;
 }
 
+.grey {
+  color: #888
+}
+
 span {
   font-family: 'PT Serif', serif;
 }
