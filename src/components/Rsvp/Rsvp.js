@@ -14,7 +14,7 @@ const Rsvp = () => {
     }
 
     return (
-        <div className='rsvp-container bg-white'>
+        <div className='rsvp-container bg-white' id="rsvp">
             <form className="contact-form" onSubmit={sendEmail}>
                 <input type="hidden" name="name" />
                 <label for="name">Name</label>

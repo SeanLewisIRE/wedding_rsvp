@@ -10,7 +10,7 @@ import './WhereSection.css'
 
 const WhereSection = () => {
     return (
-        <div className="where-container bg-white">
+        <div className="where-container bg-white" id="where">
             <h2> Where...</h2>
             <div className="ceremony-container">
                 <h3 className='line-break-header' >CEREMONY</h3>

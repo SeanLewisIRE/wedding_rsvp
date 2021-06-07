@@ -2,7 +2,7 @@ import React from 'react';
 import { FaTaxi } from 'react-icons/fa'
 const Directions = () => {
     return (
-        <div className='diretions-container bg-white'>
+        <div className='diretions-container bg-white' id="directions">
             <h2>Directions</h2>
             <h3 className='line-break-header'>To RATHFEIGH CHURCH</h3>
             

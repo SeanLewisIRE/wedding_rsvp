@@ -5,7 +5,7 @@ import { AiFillCar } from 'react-icons/ai'
 
 const GoodToKnow = () => {
     return(
-        <div className='good-container bg-white'>
+        <div className='good-container bg-white' id="goodToKnow">
             <h2>Good to know...</h2>
             <div className="items flex flex-wrap">
 

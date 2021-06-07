@@ -24,7 +24,7 @@ const Accomodation = () => {
     ]
 
     return(
-        <div className="accomodation-container bg-white">
+        <div className="accomodation-container bg-white" id="accomodation">
             <h2>Accomodation</h2>
             <p>Slane is a very small village. 
                 Accomodation in the area is limited so we recommend that you 

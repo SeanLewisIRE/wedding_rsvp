@@ -37,7 +37,9 @@ const ThingsToDo = () => {
     ]
 
     return (
-        <div className="things-container bg-white">
+
+
+        <div className="things-container bg-white" id="things">
             <h2>Things to do...</h2>
             <h3 className='line-break-header'>NEAR THE VENUE</h3>
 

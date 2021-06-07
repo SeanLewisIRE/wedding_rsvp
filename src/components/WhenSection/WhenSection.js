@@ -19,7 +19,7 @@ const WhenSection = () => {
                 <h4 >Thursday</h4>
                 <div className="tl-container right">
                     <div className="content">
-                        <h2>CEREMONY</h2>
+                        <h3>CEREMONY</h3>
                         <p>Church</p>
                         <p>*time*</p>
                     </div>

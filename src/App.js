@@ -11,6 +11,7 @@ import GoodToKnow from './components/GoodToKnow/GoodToKnow'
 import ThingsToDo from './components/ThingsToDo/ThingsToDo'
 
 function App() {
+
   return (
     <div className="App bg-current">
       <NavBar />
