@@ -11,8 +11,20 @@ h2 {
 h3 {
   color: #80bca8;
   font-family: 'PT Serif', serif;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: #dab896;
+  font-weight: 700;
+  font-family: 'PT Serif', serif;
+
+}
+
+p {
+  font-family: 'PT Serif', serif;
 }
 
 .grey {
@@ -30,7 +42,11 @@ span {
     overflow: hidden;
     text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
+}
+
+.line-break-header span {
+  padding: 0 0.25em;
 }
 
 .line-break-header:before, .line-break-header:after {
