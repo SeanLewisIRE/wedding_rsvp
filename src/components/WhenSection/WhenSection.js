@@ -14,9 +14,10 @@ const WhenSection = () => {
             <h4>1300 hrs Zulu</h4>
             <p className="w-80 mx-auto" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         
-            <h4 className="my-3">Thursday</h4>
 
-            <div class="container w-80 mx-auto">
+            <div class="container w-80 mx-auto my-6">
+                <h4 className="my-3">Thursday</h4>
+
                 <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
 
                     <div class="flex flex-row-reverse md:contents">

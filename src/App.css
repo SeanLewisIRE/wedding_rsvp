@@ -20,7 +20,12 @@ h4 {
   color: #dab896;
   font-weight: 700;
   font-family: 'PT Serif', serif;
+}
 
+h6 {
+  font-family: 'PT Serif', serif;
+  color: #666;
+  font-weight: 700
 }
 
 p {

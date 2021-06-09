@@ -24,19 +24,19 @@ const Accomodation = () => {
     ]
 
     return(
-        <div className="accomodation-container bg-white" id="accomodation">
-            <h2>Accomodation</h2>
-            <p>Slane is a very small village. 
+        <div className="accomodation-container bg-white text-center" id="accomodation">
+            <h2 >Accomodation</h2>
+            <p className="w-80 mx-auto">Slane is a very small village. 
                 Accomodation in the area is limited so we recommend that you 
                 reserve as soon as possible.
             </p>
             <br/>
-            <p>
+            <p className="w-80 mx-auto">
                 There are also accomodation options available in the nearby towns of Navan, 
                 Ashbourne and Drogheda (30 minutes from venue).
             </p>
 
-            <h3 className='line-break-header'>Closest Places</h3>
+            <h3 className='line-break-header'><span>Closest Places</span></h3>
             <div className='list'>
                 {accom.map(item => (
                     <AccomodationCard 
@@ -50,7 +50,9 @@ const Accomodation = () => {
             </div>
 
             <h3 className='line-break-header'>Shuttle Bus</h3>
-
+            <div>
+                <p>Blank</p>
+            </div>
         </div>
     )
 }
