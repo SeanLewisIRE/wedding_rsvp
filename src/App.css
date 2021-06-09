@@ -28,6 +28,11 @@ h6 {
   font-weight: 700
 }
 
+iframe {
+  height: 320px;
+  width: 320px;
+}
+
 p {
   font-family: 'PT Serif', serif;
 }
