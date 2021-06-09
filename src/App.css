@@ -31,6 +31,18 @@ p {
   color: #888
 }
 
+.gold {
+  background-color: #dab896;
+}
+
+.gold-font {
+  color: #dab896;
+}
+
+.green-font {
+  color: #80bca8;
+}
+
 span {
   font-family: 'PT Serif', serif;
 }
