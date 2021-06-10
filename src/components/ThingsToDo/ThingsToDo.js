@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiExternalLink } from 'react-icons/fi'
 
 const ThingsToDo = () => {
 
@@ -39,16 +40,33 @@ const ThingsToDo = () => {
     return (
 
 
-        <div className="things-container bg-white" id="things">
+        <div className="things-container bg-white text-center" id="things">
             <h2>Things to do...</h2>
             <h3 className='line-break-header'>NEAR THE VENUE</h3>
 
-            <div className="allItems">
+            <div className="allItems flex flex-wrap">
                 {amenities.map(item => (
-                    <div className="item">
+                    <div className="item my-2 mx-auto flex-grow md:flex-grow-0">
                         <h3>{item.title}</h3>
-                        <a href={item.link} >{item.link_copy}</a>
+                        <div className="w-80 mx-auto flex flex-row items-center justify-center">
+
+                            <FiExternalLink />
+
+                            <a
+                                className="px-1 my-2"
+                                href={item.link} 
+                                target="_blank"
+                                rel="noreferrer"
+                                >
+                                {item.link_copy}
+                            </a>
+                        </div>
+
                     </div>
+
+
+
+                    
                 ))}
             </div>
         </div>

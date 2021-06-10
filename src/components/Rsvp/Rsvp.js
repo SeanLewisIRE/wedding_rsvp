@@ -1,6 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 const Rsvp = () => {
+
+    const [numberOfGuests, setNumberOfGuests] = useState(false)
+
+
+    const handleChange = (e) => {
+        if (e.target.value > 1 ) {
+            setNumberOfGuests(true)
+        } else {
+            setNumberOfGuests(false)
+        }
+    }
 
     function sendEmail(e) {
         e.preventDefault();
@@ -21,27 +32,48 @@ const Rsvp = () => {
                 <span>Please RSVP before:</span>
                 <span className="my-2"><strong>31st Juneuary 2030</strong></span>
             </div>
-            
+
             <form className="contact-form flex flex-col w-80 mx-auto" onSubmit={sendEmail}>
-                <input type="text" name="name" />
-                <label for="name">Name</label>
+                
+                <label for="name">Name{numberOfGuests ? "s" : ""}</label>
+                <input className="border border-dashed border-light-blue-500" type="text" name="name" />
 
-                <input type="email" name="user_email" />
                 <label for="email">Email</label>
+                <input 
+                    className="border border-dashed border-light-blue-500"
+                    type="email" name="user_email" />
 
-                <input type="radio" id="attend_one" name="attend_one" value="I/We will attend on Saturday 25th August."/>
-                <label for="attend_one">I/We will attend on Saturday 25th August.</label>
-                <br/>
-                <input type="radio" id="attend_all" name="attend_all" value="I/We will attend on Saturday 25th and Sunday 26th August."/>
-                <label for="attend_all">I/We will attend on Saturday 25th and Sunday 26th August.</label>
-                <br/>
-                <input type="radio" id="no_attend" name="no_attend" value="Unfortunatly, I am / We are unable to attend." />
-                <label for="no_attend">Unfortunatly, I am / We are unable to attend.</label>
-                <br/>
+                <label for="guests">Number of guests</label>
+                <select className="border border-dashed border-light-blue-500"  name="guests" onChange={handleChange}>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+
+                <div className="flex items-center">
+                    <input type="radio" id="attend_one" name="attend_radio" value="I/We will attend on Saturday 25th August." />
+                    <label for="attend_one">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th August.</label>
+                </div>
+
+                <div className="flex items-center">
+                    <input type="radio" id="attend_all" name="attend_radio" value="I/We will attend on Saturday 25th and Sunday 26th August." />
+                    <label for="attend_all">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th and Sunday 26th August.</label>
+                </div>
+
+                <div className="flex items-center">
+                    <input  type="radio" id="no_attend" name="attend_radio" value="Unfortunatly, I am / We are unable to attend." />
+                    <label for="no_attend">Unfortunatly, {numberOfGuests ? "we" : "I"} will be unable to attend.</label>
+                </div>
+
 
                 <label>Message</label>
-                <textarea name="dietary_message" />
-                <input type="submit" value="Send" />
+                <textarea 
+                    className="border border-dashed border-light-blue-500"
+                    name="dietary_message" />
+                <input 
+                    className="gold my-4 p-3 w-8/12 mx-auto rounded-md"
+                    type="submit" 
+                    value="SEND" 
+                />
             </form>
         </div>
     )

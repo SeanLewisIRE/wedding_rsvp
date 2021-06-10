@@ -37,6 +37,10 @@ p {
   font-family: 'PT Serif', serif;
 }
 
+label {
+  font-family: 'PT Serif', serif;
+}
+
 .grey {
   color: #888
 }
