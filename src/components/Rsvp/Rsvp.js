@@ -14,9 +14,16 @@ const Rsvp = () => {
     }
 
     return (
-        <div className='rsvp-container bg-white' id="rsvp">
-            <form className="contact-form" onSubmit={sendEmail}>
-                <input type="hidden" name="name" />
+        <div className='rsvp-container bg-white ' id="rsvp">
+            <h2 className="text-center">RSVP</h2>
+
+            <div className="text-center flex flex-col">
+                <span>Please RSVP before:</span>
+                <span className="my-2"><strong>31st Juneuary 2030</strong></span>
+            </div>
+            
+            <form className="contact-form flex flex-col w-80 mx-auto" onSubmit={sendEmail}>
+                <input type="text" name="name" />
                 <label for="name">Name</label>
 
                 <input type="email" name="user_email" />

@@ -42,7 +42,7 @@ const Directions = () => {
             
             <h3 className='line-break-header'><span>TO TANKARDSTOWN HOUSE</span></h3>
 
-            <div className="flex w-80 mx-auto text-left my-4">
+            <div className="flex w-80 mx-auto text-justify my-4">
                 <div className="mx-auto">
                     <p>From <strong> Rathfeigh Church</strong></p>
                     <p>From <strong> Dublin</strong></p>
@@ -68,13 +68,12 @@ const Directions = () => {
                 alt='rathfeigh church to tankardstown, google maps' target='_blank' rel='noreferrer' href='https://goo.gl/maps/BQtdnhRToQmmkoax6'>Google Maps</a>
             </div>
 
-            <p className="w-80 mx-auto text-left">
+            <p className="w-80 mx-auto text-justify">
                 Tankardstown House is located in Rathkenny just outside Slane. It is a 25 min drive from the Church. After the church head north on the N2 for Slane. At Slane village crossroads turn left and continue for 1.5km. Turn right for the R162 just after you pass Slane Castle on your left. At the fork in the road keep left and continue for approx 4 - 5 mins. The venue will be on your right.
             </p>
 
-            <h3 className='line-break-header'> <FaTaxi /> TAXI - Airport Collection</h3>
-            
-
+            <h3 className='line-break-header'> <span><FaTaxi className="inline" /> TAXI - Airport Collection</span></h3>
+            <p>Do we need this paragraph?</p>
         </div>
     )
 }
