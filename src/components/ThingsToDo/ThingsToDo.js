@@ -63,10 +63,6 @@ const ThingsToDo = () => {
                         </div>
 
                     </div>
-
-
-
-                    
                 ))}
             </div>
         </div>

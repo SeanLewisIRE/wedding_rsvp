@@ -19,17 +19,17 @@ const GoodToKnow = () => {
                         <BiBus />
                     </div>
                     <h3>SHUTTLE BUS</h3>
-                    <p className="w-4/5 mx-auto md:w-70">For those staying in nearby accommodation, we have arranged a courtesy bus to bring you back to your accommodation later. Please let us know if you are interested.</p>
+                    <p className="w-4/5 md:w-3/5 mx-auto ">For those staying in nearby accommodation, we have arranged a courtesy bus to bring you back to your accommodation later. Please let us know if you are interested.</p>
                     
                 </div>
 
-                <div className="info-item flex-grow  my-4">
+                <div className="info-item flex-grow  my-4 w-4/5 md:w-3/5">
                     <div className="flex items-center justify-center gold h-16 w-16 rounded-full mx-auto ">
                         <FaPlane />
                     </div>
                     <h3>FLIGHTS FROM THE UK</h3>
-                    <p className="w-4/5 mx-auto m-2">Covid restrictions or something</p>
-                    <div className="mx-auto mt-2 flex w-4/5 justify-center flex-wrap">
+                    <p className=" mx-auto m-2">Covid restrictions or something</p>
+                    <div className="mx-auto mt-2 flex justify-center flex-wrap w-4/5 md:w-3/5">
                         <a className="p-2" href="https://www.aerlingus.com/" target="_blank" rel="noreferrer" >
                             <img src={aerLingus} className="h-10 w-36" alt="aerlingus logo"/>
                         </a>
@@ -39,14 +39,14 @@ const GoodToKnow = () => {
                     </div>
                 </div>
 
-                <div className="info-item flex-grow  my-4">
+                <div className="info-item flex-grow  my-4 w-4/5 md:w-3/5">
                     <div className="flex items-center justify-center gold h-16 w-16 rounded-full mx-auto ">
                         <AiFillCar />
                     </div>
                         <h3>CAR RENTAL</h3>
-                        <p className="w-4/5 mx-auto m-2">There are several car rental providers available.</p>
+                        <p className="mx-auto m-2">There are several car rental providers available.</p>
                     
-                    <div className="mx-auto mt-2 flex w-4/5 justify-around flex-wrap">
+                    <div className="mx-auto mt-2 flex justify-around flex-wrap w-4/5 md:w-3/5">
                         <a className="p-2" href="https://www.hertz.com/rentacar/reservation/" target="_blank" rel="noreferrer" >
                             <img src={hertz} className="h-10 w-36" alt="hertz logo" />
                         </a>

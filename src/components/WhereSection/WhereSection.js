@@ -13,11 +13,11 @@ const WhereSection = () => {
         <div className="where-container bg-white text-center" id="where">
             <h2> Where...</h2>
 
-            <div className="flex flex-col lg:flex-row">
-                <div className="ceremony-container">
+            <div className="flex flex-wrap w-4/5 md:w-3/5 mx-auto">
+                <div className="ceremony-container lg:w-1/2">
                     <h3 className='line-break-header'><span>CEREMONY</span></h3>
                     <h4>RATHFEIGH CHURCH</h4>
-                    <address className="grey w-4/5 mx-auto">
+                    <address className="grey w-2/5 h-8 md:h-24 mx-auto">
                         Church of Immaculate Conception
                         <strong> Rathfeigh</strong>, Co. Meath.
                     </address>
@@ -36,10 +36,10 @@ const WhereSection = () => {
                     </div>
                 </div>
 
-                <div className="reception-container">
+                <div className="reception-container lg:w-1/2">
                     <h3 className='line-break-header' ><span>RECEPTION</span></h3>
                     <h4>TANKARDSTOWN HOUSE</h4>
-                    <address className="grey w-4/5 mx-auto">Rathkenny<strong> Slane</strong>, Co. Meath</address>
+                    <address className="grey w-2/5 h-8 md:h-24 mx-auto">Rathkenny<strong> Slane</strong>, Co. Meath</address>
                     <img src={tankardstown} alt='tankardstown house hotel' className="w-4/5 md:w-3/5 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
                     
                     <div className="flex flex-row items-center justify-center">

@@ -9,110 +9,79 @@ const NavBar = (props) => {
 
     return (
         <div>
-            <div className="">
-                <div className="hidden lg:block">
-                    <div className="">
-                        <ul className="flex navList">
-                            <li className="">
-                                <Link
-                                    onClick={() => {
-                                        setIsOpen(!isOpen)
-                                    }}
-                                    to="hero"
-                                    activeClass="active"
-                                    spy={true}
-                                    smooth={true}
-                                >
-                                    S&amp;D
-                                        </Link>
-                            </li>
+            <div className="hidden lg:block fixed w-full z-40">
+                <ul className="flex navList justify-center mx-auto">
 
-                            <li>
-                                <Link
-                                    onClick={() => {
-                                        setIsOpen(!isOpen)
-                                    }}
-                                    to="where"
-                                    activeClass="active"
-                                    spy={true}
-                                    smooth={true}
-                                >
-                                    <p>Where &amp; When</p>
-                                </Link>
-                            </li>
+                    <li>
+                        <Link
+                            onClick={() => {
+                                setIsOpen(!isOpen)
+                            }}
+                            to="where"
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                        >
+                            <p>Where &amp; When</p>
+                        </Link>
+                    </li>
 
-                            <li>
-                                <Link
-                                    onClick={() => {
-                                        setIsOpen(!isOpen)
-                                    }}
-                                    to="accomodation"
-                                    activeClass="active"
-                                    spy={true}
-                                    smooth={true}
-                                >
-                                    <p>Accomodation</p>
-                                </Link>
-                            </li>
+                    <li>
+                        <Link
+                            onClick={() => {
+                                setIsOpen(!isOpen)
+                            }}
+                            to="accomodation"
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                        >
+                            <p>Accomodation</p>
+                        </Link>
+                    </li>
 
-                            <li>
-                                <Link
-                                    onClick={() => {
-                                        setIsOpen(!isOpen)
-                                    }}
-                                    to="directions"
-                                    activeClass="active"
-                                    spy={true}
-                                    smooth={true}
-                                >
-                                    <p>Directions</p>
-                                </Link>
-                            </li>
+                    <li>
+                        <Link
+                            onClick={() => {
+                                setIsOpen(!isOpen)
+                            }}
+                            to="directions"
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                        >
+                            <p>Directions</p>
+                        </Link>
+                    </li>
 
-                            <li>
-                                <Link
-                                    onClick={() => {
-                                        setIsOpen(!isOpen)
-                                    }}
-                                    to="goodToKnow"
-                                    activeClass="active"
-                                    spy={true}
-                                    smooth={true}
-                                >
-                                    <p>Good to Know</p>
-                                </Link>
-                            </li>
+                    <li>
+                        <Link
+                            onClick={() => {
+                                setIsOpen(!isOpen)
+                            }}
+                            to="goodToKnow"
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                        >
+                            <p>Good to Know</p>
+                        </Link>
+                    </li>
 
-                            <li>
-                                <Link
-                                    onClick={() => {
-                                        setIsOpen(!isOpen)
-                                    }}
-                                    to="things"
-                                    activeClass="active"
-                                    spy={true}
-                                    smooth={true}
-                                >
-                                    <p>Things to Do</p>
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link
-                                    onClick={() => {
-                                        setIsOpen(!isOpen)
-                                    }}
-                                    to="rsvp"
-                                    activeClass="active"
-                                    spy={true}
-                                    smooth={true}
-                                >
-                                    <p>RSVP</p>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                    <li>
+                        <Link
+                            onClick={() => {
+                                setIsOpen(!isOpen)
+                            }}
+                            to="rsvp"
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                        >
+                            <p>RSVP</p>
+                        </Link>
+                    </li>
+                </ul>
             </div>
                 <button
                     onClick={() => {
@@ -240,20 +209,6 @@ const NavBar = (props) => {
                                             smooth={true}
                                         >
                                             <p>Good to Know</p>
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link
-                                            onClick={() => {
-                                                setIsOpen(!isOpen)
-                                            }}
-                                            to="things"
-                                            activeClass="active"
-                                            spy={true}
-                                            smooth={true}
-                                        >
-                                            <p>Things to Do</p>
                                         </Link>
                                     </li>
 
