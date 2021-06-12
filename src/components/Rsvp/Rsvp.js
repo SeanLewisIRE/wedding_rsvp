@@ -33,17 +33,17 @@ const Rsvp = () => {
                 <span className="my-2"><strong>31st Juneuary 2030</strong></span>
             </div>
 
-            <form className="contact-form flex flex-col w-80 mx-auto" onSubmit={sendEmail}>
+            <form className="contact-form flex flex-col w-4/5 md:w-3/5 mx-auto" onSubmit={sendEmail}>
                 
-                <label for="name">Name{numberOfGuests ? "s" : ""}</label>
+                <label htmlFor="name">Name{numberOfGuests ? "s" : ""}</label>
                 <input className="border border-dashed border-light-blue-500" type="text" name="name" />
 
-                <label className="mt-3" for="email">Email</label>
+                <label className="mt-3" htmlFor="email">Email</label>
                 <input 
                     className="border border-dashed border-light-blue-500"
                     type="email" name="user_email" />
 
-                <label className="mt-3" for="guests">Number of guests</label>
+                <label className="mt-3" htmlFor="guests">Number of guests</label>
                 <select className="border border-dashed border-light-blue-500"  name="guests" onChange={handleChange}>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -51,17 +51,17 @@ const Rsvp = () => {
 
                 <div className="flex items-center my-2">
                     <input type="radio" id="attend_one" name="attend_radio" value="I/We will attend on Saturday 25th August." />
-                    <label className="px-2" for="attend_one">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th August.</label>
+                    <label className="px-2" htmlFor="attend_one">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th August.</label>
                 </div>
 
                 <div className="flex items-center my-2">
                     <input type="radio" id="attend_all" name="attend_radio" value="I/We will attend on Saturday 25th and Sunday 26th August." />
-                    <label className="px-2" for="attend_all">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th and Sunday 26th August.</label>
+                    <label className="px-2" htmlFor="attend_all">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th and Sunday 26th August.</label>
                 </div>
 
                 <div className="flex items-center my-2">
                     <input  type="radio" id="no_attend" name="attend_radio" value="Unfortunatly, I am / We are unable to attend." />
-                    <label className="px-2" for="no_attend">Unfortunatly, {numberOfGuests ? "we" : "I"} will be unable to attend.</label>
+                    <label className="px-2" htmlFor="no_attend">Unfortunatly, {numberOfGuests ? "we" : "I"} will be unable to attend.</label>
                 </div>
 
 

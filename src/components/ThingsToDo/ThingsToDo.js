@@ -44,16 +44,16 @@ const ThingsToDo = () => {
             <h2>Things to do...</h2>
             <h3 className='line-break-header'>NEAR THE VENUE</h3>
 
-            <div className="allItems flex flex-wrap">
+            <div className="flex flex-wrap mb-9 w-4/5 mx-auto ">
                 {amenities.map(item => (
-                    <div className="item my-2 mx-auto flex-grow md:flex-grow-0">
+                    <div className="w-60 item p-4 mx-auto " key={item.title}>
                         <h3>{item.title}</h3>
-                        <div className="w-80 mx-auto flex flex-row items-center justify-center">
+                        <div className="w-4/5 mx-auto flex flex-row items-center justify-center">
 
                             <FiExternalLink />
 
                             <a
-                                className="px-1 my-2"
+                                className="px-1 my-2 text-sm"
                                 href={item.link} 
                                 target="_blank"
                                 rel="noreferrer"

@@ -10,7 +10,7 @@ const NavBar = (props) => {
     return (
         <div>
             <div className="">
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                     <div className="">
                         <ul className="flex navList">
                             <li className="">
@@ -119,7 +119,7 @@ const NavBar = (props) => {
                         setIsOpen(!isOpen)
                     }}
                     type="button"
-                    className="md:hidden fixed z-50 right-0 mx-4 my-4 r-0 bg-gray-900 inline items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    className="lg:hidden fixed z-50 right-0 mx-4 my-4 r-0 bg-gray-900 inline items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                     aria-controls="mobile-menu"
                     aria-expanded="false"
                 >
@@ -169,7 +169,7 @@ const NavBar = (props) => {
                     leaveTo="opacity-0 scale-95"
                 >
                     {(ref) => (
-                        <div className="md:hidden fixed z-40 bg-white w-screen" id="mobile-menu">
+                        <div className="lg:hidden fixed z-40 bg-white w-screen" id="mobile-menu">
                         <div ref={React.createRef} className="flex flex-col">
                                 
                             <ul className="navList text-center">

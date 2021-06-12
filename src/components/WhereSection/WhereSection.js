@@ -17,11 +17,11 @@ const WhereSection = () => {
                 <div className="ceremony-container">
                     <h3 className='line-break-header'><span>CEREMONY</span></h3>
                     <h4>RATHFEIGH CHURCH</h4>
-                    <address className="grey w-80 mx-auto">
+                    <address className="grey w-4/5 mx-auto">
                         Church of Immaculate Conception
                         <strong> Rathfeigh</strong>, Co. Meath.
                     </address>
-                    <img src={churchPhoto} alt='RATHFEIGH CHURCH' className="w-80 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
+                    <img src={churchPhoto} alt='RATHFEIGH CHURCH' className="w-4/5 md:w-3/5 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
                     
                     <div className="flex flex-row items-center justify-center">
                     <FiMapPin />
@@ -39,8 +39,8 @@ const WhereSection = () => {
                 <div className="reception-container">
                     <h3 className='line-break-header' ><span>RECEPTION</span></h3>
                     <h4>TANKARDSTOWN HOUSE</h4>
-                    <address className="grey w-80 mx-auto">Rathkenny<strong> Slane</strong>, Co. Meath</address>
-                    <img src={tankardstown} alt='tankardstown house hotel' className="w-80 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
+                    <address className="grey w-4/5 mx-auto">Rathkenny<strong> Slane</strong>, Co. Meath</address>
+                    <img src={tankardstown} alt='tankardstown house hotel' className="w-4/5 md:w-3/5 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
                     
                     <div className="flex flex-row items-center justify-center">
                         <AiTwotonePhone />

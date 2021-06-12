@@ -6,7 +6,7 @@ const AccomodationCard = (props) => {
     return (
         <div className='accom-card-image my-8'>
             <h6 className="my-1">{props.name}</h6>
-            {props.image ? <img src={props.image} alt={props.name} className="w-80 mx-auto my-1 border border-dashed border-light-blue-500 p-1" /> : ''}
+            {props.image ? <img src={props.image} alt={props.name} className="w-4/5 md:w-3/5 mx-auto my-1 border border-dashed border-light-blue-500 p-1" /> : ''}
             <div className="flex flex-row items-center justify-center">
                 <AiTwotonePhone />
                 <a 
