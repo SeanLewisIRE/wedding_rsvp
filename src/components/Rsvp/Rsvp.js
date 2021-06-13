@@ -33,7 +33,7 @@ const Rsvp = () => {
                 <span className="my-2"><strong>31st Juneuary 2030</strong></span>
             </div>
 
-            <form className="contact-form flex flex-col w-4/5 md:w-3/5 mx-auto" onSubmit={sendEmail}>
+            <form className="contact-form flex flex-col w-4/5 md:w-3/5 lg:w-2/5 mx-auto" onSubmit={sendEmail}>
                 
                 <label htmlFor="name">Name{numberOfGuests ? "s" : ""}</label>
                 <input className="border border-dashed border-light-blue-500" type="text" name="name" />

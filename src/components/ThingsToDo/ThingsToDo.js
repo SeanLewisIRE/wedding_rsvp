@@ -42,7 +42,7 @@ const ThingsToDo = () => {
 
         <div className="things-container bg-white text-center" id="things">
             <h2>Things to do...</h2>
-            <h3 className='line-break-header'>NEAR THE VENUE</h3>
+            <h3 className='line-break-header w-4/5 lg:w-4/6'><span>NEAR THE VENUE</span></h3>
 
             <div className="flex flex-wrap mb-9 w-4/5 mx-auto ">
                 {amenities.map(item => (

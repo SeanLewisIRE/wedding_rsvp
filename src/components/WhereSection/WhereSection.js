@@ -13,15 +13,16 @@ const WhereSection = () => {
         <div className="where-container bg-white text-center" id="where">
             <h2> Where...</h2>
 
-            <div className="flex flex-wrap w-4/5 md:w-3/5 mx-auto">
-                <div className="ceremony-container lg:w-1/2">
-                    <h3 className='line-break-header'><span>CEREMONY</span></h3>
+            <div className="flex flex-wrap w-4/5 md:w-3/5 mx-auto justify-center">
+                <div className="ceremony-container w-full lg:w-1/2 mx-auto">
+                    <h3 className='line-break-header w-full lg:w-4/5'><span>CEREMONY</span></h3>
+                <div >
                     <h4>RATHFEIGH CHURCH</h4>
-                    <address className="grey w-2/5 h-8 md:h-24 mx-auto">
+                        <address className="grey w-2/5 h-20 mx-auto text-xs">
                         Church of Immaculate Conception
                         <strong> Rathfeigh</strong>, Co. Meath.
                     </address>
-                    <img src={churchPhoto} alt='RATHFEIGH CHURCH' className="w-4/5 md:w-3/5 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
+                    <img src={churchPhoto} alt='RATHFEIGH CHURCH' className="w-4/5 md:w-8/12 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
                     
                     <div className="flex flex-row items-center justify-center">
                     <FiMapPin />
@@ -35,12 +36,14 @@ const WhereSection = () => {
                     </a>
                     </div>
                 </div>
+                </div>
 
-                <div className="reception-container lg:w-1/2">
-                    <h3 className='line-break-header' ><span>RECEPTION</span></h3>
+                <div className="ceremony-container w-full lg:w-1/2 mx-auto">
+                    <h3 className='line-break-header w-full lg:w-4/5' ><span>RECEPTION</span></h3>
+                <div className="reception-container ">
                     <h4>TANKARDSTOWN HOUSE</h4>
-                    <address className="grey w-2/5 h-8 md:h-24 mx-auto">Rathkenny<strong> Slane</strong>, Co. Meath</address>
-                    <img src={tankardstown} alt='tankardstown house hotel' className="w-4/5 md:w-3/5 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
+                        <address className="grey w-2/5 h-20 mx-auto text-xs">Rathkenny<strong> Slane</strong>, Co. Meath</address>
+                    <img src={tankardstown} alt='tankardstown house hotel' className="w-4/5 md:w-8/12 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
                     
                     <div className="flex flex-row items-center justify-center">
                         <AiTwotonePhone />
@@ -71,6 +74,7 @@ const WhereSection = () => {
                             Tankardstown House, Google Maps
                         </a>
                     </div>
+                </div>
                 </div>
             </div>
             

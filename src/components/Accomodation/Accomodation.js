@@ -26,18 +26,19 @@ const Accomodation = () => {
     return(
         <div className="accomodation-container bg-white text-center" id="accomodation">
             <h2 >Accomodation</h2>
-            <p className="w-4/5 md:w-3/5 mx-auto">Slane is a very small village.
+            <p className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto">
+                Slane is a very small village.
                 Accomodation in the area is limited so we recommend that you 
                 reserve as soon as possible.
             </p>
             <br/>
-            <p className="w-4/5 md:w-3/5 mx-auto">
+            <p className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto">
                 There are also accomodation options available in the nearby towns of Navan, 
                 Ashbourne and Drogheda (30 minutes from venue).
             </p>
 
-            <h3 className='line-break-header'><span>Closest Places</span></h3>
-            <div className='list'>
+            <h3 className='line-break-header w-4/5 lg:w-4/6'><span>Closest Places</span></h3>
+            <div className='list flex flex-wrap w-4/5 md:w-3/5 mx-auto justify-center'>
                 {accom.map(item => (
                     <AccomodationCard 
                         key={item.key}
@@ -49,9 +50,9 @@ const Accomodation = () => {
                 ))}
             </div>
 
-            <h3 className='line-break-header'><span>Shuttle Bus</span></h3>
-            <div>
-                <p className="w-4/5 md:w-3/5 mx-auto">
+            <h3 className='line-break-header w-4/5 lg:w-4/6'><span>Shuttle Bus</span></h3>
+            <div className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto pb-4 text-justify">
+                <p >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet dui finibus nisl lobortis hendrerit. Morbi ipsum orci, molestie quis arcu eget, aliquam pulvinar diam. Proin et purus id nisl mattis vestibulum. Cras pharetra diam volutpat nisi vehicula lacinia. Curabitur et tortor ut neque efficitur condimentum sit amet eu justo.
                 </p>
             </div>

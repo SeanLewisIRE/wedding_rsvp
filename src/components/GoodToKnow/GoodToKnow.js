@@ -18,7 +18,7 @@ const GoodToKnow = () => {
                     <div className="flex items-center justify-center gold h-16 w-16 rounded-full mx-auto ">
                         <BiBus />
                     </div>
-                    <h3>SHUTTLE BUS</h3>
+                    <h3 className="my-2">SHUTTLE BUS</h3>
                     <p className="w-4/5 md:w-3/5 mx-auto ">For those staying in nearby accommodation, we have arranged a courtesy bus to bring you back to your accommodation later. Please let us know if you are interested.</p>
                     
                 </div>
@@ -27,7 +27,7 @@ const GoodToKnow = () => {
                     <div className="flex items-center justify-center gold h-16 w-16 rounded-full mx-auto ">
                         <FaPlane />
                     </div>
-                    <h3>FLIGHTS FROM THE UK</h3>
+                    <h3 className="my-2">FLIGHTS FROM THE UK</h3>
                     <p className=" mx-auto m-2">Covid restrictions or something</p>
                     <div className="mx-auto mt-2 flex justify-center flex-wrap w-4/5 md:w-3/5">
                         <a className="p-2" href="https://www.aerlingus.com/" target="_blank" rel="noreferrer" >
@@ -43,7 +43,7 @@ const GoodToKnow = () => {
                     <div className="flex items-center justify-center gold h-16 w-16 rounded-full mx-auto ">
                         <AiFillCar />
                     </div>
-                        <h3>CAR RENTAL</h3>
+                    <h3 className="my-2">CAR RENTAL</h3>
                         <p className="mx-auto m-2">There are several car rental providers available.</p>
                     
                     <div className="mx-auto mt-2 flex justify-around flex-wrap w-4/5 md:w-3/5">
