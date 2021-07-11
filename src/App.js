@@ -7,7 +7,7 @@ import WhenSection from './components/WhenSection/WhenSection'
 import Accomodation from './components/Accomodation/Accomodation'
 import Directions from './components/Directions/Directions'
 import Rsvp from './components/Rsvp/Rsvp'
-import GoodToKnow from './components/GoodToKnow/GoodToKnow'
+// import GoodToKnow from './components/GoodToKnow/GoodToKnow'
 import ThingsToDo from './components/ThingsToDo/ThingsToDo'
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Accomodation />
       <Directions />
       <Rsvp />
-      <GoodToKnow />
+      {/* <GoodToKnow /> */}
       <ThingsToDo />
     </div>
   );

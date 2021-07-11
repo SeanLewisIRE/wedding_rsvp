@@ -39,7 +39,7 @@ const Rsvp = () => {
 
             <div className="text-center flex flex-col">
                 <span>Please RSVP before:</span>
-                <span className="my-2"><strong>31st Juneuary 2030</strong></span>
+                <span className="my-2"><strong>Friday 30th July</strong></span>
             </div>
 
             <form className="contact-form flex flex-col w-4/5 md:w-3/5 lg:w-2/5 mx-auto" onSubmit={sendEmail}>
@@ -73,6 +73,11 @@ const Rsvp = () => {
                     <label className="px-2" htmlFor="no_attend">Unfortunatly, {numberOfGuests ? "we" : "I"} will be unable to attend.</label>
                 </div>
 
+                <div>
+                    <p className="text-sm px-2 text-gray-500">
+                        Please advise of any special dietary requirements or let us know if you have any other questions.
+                    </p>
+                </div>
 
                 <label className="my-1">Message</label>
                 <textarea 

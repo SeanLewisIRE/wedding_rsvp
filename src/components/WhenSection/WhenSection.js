@@ -8,17 +8,11 @@ const WhenSection = () => {
             <h2>When</h2>
             <h3 className='line-break-header w-4/5 lg:w-4/6' ><span>FRIDAY 27TH AUGUST</span></h3>
 
-            <h4 className="my-2">1400 hrs Zulu</h4>
-            <p className="w-4/5 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h4 className="my-2">01:30PM</h4>
+            <p className="w-4/5 mx-auto">We invite you to join us at Rathfeigh Church for the ceremony at 1:30pm. This will be followed by a drinks reception and dinner at Tankardstown House</p>
         
-            <h4 className="my-2">1400 hrs Zulu</h4>
-            <p className="w-4/5 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-            <h4 className="my-2">1400 hrs Zulu</h4>
-            <p className="w-4/5 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
             <div className="container w-4/5 mx-auto my-6">
-                <h4 className="my-3">Thursday</h4>
+                <h4 className="my-3">Friday 27th August 2021</h4>
 
                 <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
 
@@ -27,8 +21,8 @@ const WhenSection = () => {
                             className="col-start-1 col-end-5 p-4 rounded-xl my-4 mr-auto text-left md:ml-auto md:mr-0 md:text-right"
                         >
                             <h3>CEREMONY</h3>
-                            <span className="grey">Church</span>
-                            <span className="green-font block">*time*</span>
+                            <span className="grey">Rathfeigh Church</span>
+                            <span className="green-font block">01:30PM</span>
                         </div>
                         <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
                             <div className="h-full w-6 flex items-center justify-center">
@@ -52,9 +46,8 @@ const WhenSection = () => {
                         <div
                             className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto text-left"
                         >
-                            <h3>BBQ</h3>
-                            <span className="grey">Location</span>
-                            <span className="green-font block">*time*</span>
+                            <h3>Drinks Reception</h3>
+                            <span className="grey">Tankardstown House</span>
                         </div>
                     </div>
 
@@ -63,8 +56,7 @@ const WhenSection = () => {
                             className="col-start-1 col-end-5 p-4 rounded-xl my-4 mr-auto text-left md:ml-auto md:mr-0 md:text-right"
                         >
                             <h3>DINNER</h3>
-                            <span className="grey">Tankardstown</span>
-                            <span className="grey block">*Sub address if known*</span>
+                            <span className="grey">Tankardstown House</span>
                         </div>
                         <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
                             <div className="h-full w-6 flex items-center justify-center">

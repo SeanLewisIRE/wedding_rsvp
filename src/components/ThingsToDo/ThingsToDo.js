@@ -44,7 +44,7 @@ const ThingsToDo = () => {
             <h2>Things to do...</h2>
             <h3 className='line-break-header w-4/5 lg:w-4/6'><span>NEAR THE VENUE</span></h3>
 
-            <div className="flex flex-wrap mb-9 w-4/5 mx-auto ">
+            <div className="flex flex-wrap mb-9 w-4/5 lg:w-3/4 mx-auto ">
                 {amenities.map(item => (
                     <div className="w-60 item p-4 mx-auto " key={item.title}>
                         <h3>{item.title}</h3>
