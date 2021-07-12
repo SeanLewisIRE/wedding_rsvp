@@ -11,11 +11,18 @@
     border-bottom: 1px solid lightgray;
 }
 
+.navList li:hover {
+    background-color: #dab896;
+    color: white;
+}
+
 .navList li:first-of-type {
     background-color: #dab896;
     font-size: 2rem;
     color: white;
 }
+
+
 
 @media all and (min-width: 1024px) {
 
@@ -35,4 +42,13 @@
         background-color: inherit;
         color: black;
     }   
+
+    .navList li:first-of-type:hover {
+        background-color: #dab896;
+        color: white;
+}
+}
+
+.desktopNav {
+    background: rgba(255,255,255,0.8);
 }

@@ -9,11 +9,12 @@ const NavBar = (props) => {
 
     return (
         <div>
-            <div className="hidden lg:block fixed w-full z-40">
+            <div className="hidden lg:block fixed w-full z-40 desktopNav">
                 <ul className="flex navList justify-center mx-auto">
 
                     <li>
                         <Link
+                            className="cursor-pointer"
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
@@ -28,6 +29,7 @@ const NavBar = (props) => {
 
                     <li>
                         <Link
+                            className="cursor-pointer"
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
@@ -42,6 +44,7 @@ const NavBar = (props) => {
 
                     <li>
                         <Link
+                            className="cursor-pointer"
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
@@ -56,20 +59,7 @@ const NavBar = (props) => {
 
                     <li>
                         <Link
-                            onClick={() => {
-                                setIsOpen(!isOpen)
-                            }}
-                            to="goodToKnow"
-                            activeClass="active"
-                            spy={true}
-                            smooth={true}
-                        >
-                            <p>Good to Know</p>
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link
+                            className="cursor-pointer"
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
@@ -88,7 +78,7 @@ const NavBar = (props) => {
                         setIsOpen(!isOpen)
                     }}
                     type="button"
-                    className="lg:hidden fixed z-50 right-0 mx-4 my-4 r-0 bg-gray-900 inline items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    className="lg:hidden fixed z-50 right-0 mx-4 my-4 bg-gray-900 inline items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                     aria-controls="mobile-menu"
                     aria-expanded="false"
                 >
@@ -142,8 +132,9 @@ const NavBar = (props) => {
                         <div ref={React.createRef} className="flex flex-col">
                                 
                             <ul className="navList text-center">
-                                <li className="">
+                                <li>
                                         <Link
+                                            className="cursor-pointer"
                                             onClick={() => {
                                                 setIsOpen(!isOpen)
                                             }}
@@ -158,6 +149,7 @@ const NavBar = (props) => {
 
                                     <li>
                                         <Link
+                                            className="cursor-pointer"
                                             onClick={() => {
                                                 setIsOpen(!isOpen)
                                             }}
@@ -172,6 +164,7 @@ const NavBar = (props) => {
 
                                     <li>
                                         <Link
+                                            className="cursor-pointer"
                                             onClick={() => {
                                                 setIsOpen(!isOpen)
                                             }}
@@ -186,6 +179,7 @@ const NavBar = (props) => {
 
                                     <li>
                                         <Link
+                                            className="cursor-pointer"
                                             onClick={() => {
                                                 setIsOpen(!isOpen)
                                             }}
@@ -200,20 +194,7 @@ const NavBar = (props) => {
 
                                     <li>
                                         <Link
-                                            onClick={() => {
-                                                setIsOpen(!isOpen)
-                                            }}
-                                            to="goodToKnow"
-                                            activeClass="active"
-                                            spy={true}
-                                            smooth={true}
-                                        >
-                                            <p>Good to Know</p>
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link
+                                            className="cursor-pointer"
                                             onClick={() => {
                                                 setIsOpen(!isOpen)
                                             }}

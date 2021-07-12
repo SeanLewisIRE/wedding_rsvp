@@ -13,7 +13,7 @@ import ThingsToDo from './components/ThingsToDo/ThingsToDo'
 function App() {
 
   return (
-    <div className="App bg-current">
+    <div className="App bg-current bg-white">
       <NavBar />
       <Hero />
       <Welcome />

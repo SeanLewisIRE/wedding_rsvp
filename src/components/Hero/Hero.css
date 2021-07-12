@@ -12,6 +12,3 @@
     transform: translate(-50%, -50%);
 }
 
-video {
-    filter: grayscale(10%);
-}

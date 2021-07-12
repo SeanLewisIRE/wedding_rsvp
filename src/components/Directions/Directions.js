@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaTaxi } from 'react-icons/fa'
 import { FiExternalLink } from 'react-icons/fi'
 
 
