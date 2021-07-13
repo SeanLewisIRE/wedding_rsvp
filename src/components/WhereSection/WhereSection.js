@@ -19,7 +19,7 @@ const WhereSection = () => {
                 <div >
                     <h4>RATHFEIGH CHURCH</h4>
                         <address className="grey w-2/5 h-20 mx-auto text-xs">
-                        Church of Immaculate Conception
+                        Church of Immaculate Conception,
                         <strong> Rathfeigh</strong>, Co. Meath.
                     </address>
                         <img src={churchPhoto} alt='RATHFEIGH CHURCH' className="h-36 w-72 md:w-80 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
