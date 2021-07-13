@@ -1,12 +1,12 @@
 import React from 'react';
-import AccomodationCard from './AccomodationCard'
+import AccomodationCard from './AccommodationCard'
 import boyneHouse from '../../static/photos/boyneHouse.jpeg'
 import rosnaree from '../../static/photos/rosnaree.jpeg'
 import collonhouse from '../../static/photos/collonhouse.jpeg'
 import oldpostoffice from '../../static/photos/oldpostoffice.jpeg'
 import conyarms from '../../static/photos/conyarms.jpeg'
 
-const Accomodation = () => {
+const Accommodation = () => {
 
     const accom = [
         {
@@ -52,10 +52,10 @@ const Accomodation = () => {
     ]
 
     return(
-        <div className="accomodation-container bg-white text-center" id="accomodation">
-            <h2 >Accomodation</h2>
+        <div className="accommodation-container bg-white text-center" id="accommodation">
+            <h2 >Accommodation</h2>
             <p className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto">
-                Slane is a very small village and accomodation in the area is limited, so we recommend you reserve as soon as possible.  
+                Slane is a very small village and accommodation in the area is limited, so we recommend you reserve as soon as possible.  
             </p>
             <br/>
             <p className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto">
@@ -79,4 +79,4 @@ const Accomodation = () => {
     )
 }
 
-export default Accomodation
+export default Accommodation

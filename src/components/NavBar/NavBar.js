@@ -33,12 +33,12 @@ const NavBar = (props) => {
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
-                            to="accomodation"
+                            to="accommodation"
                             activeClass="active"
                             spy={true}
                             smooth={true}
                         >
-                            <p>Accomodation</p>
+                            <p>Accommodation</p>
                         </Link>
                     </li>
 
@@ -168,12 +168,12 @@ const NavBar = (props) => {
                                             onClick={() => {
                                                 setIsOpen(!isOpen)
                                             }}
-                                            to="accomodation"
+                                            to="accommodation"
                                             activeClass="active"
                                             spy={true}
                                             smooth={true}
                                         >
-                                            <p>Accomodation</p>
+                                            <p>Accommodation</p>
                                         </Link>
                                     </li>
 
