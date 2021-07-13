@@ -6,6 +6,8 @@ const Directions = () => {
     return (
         <div className='diretions-container bg-white text-center' id="directions">
             <h2>Directions</h2>
+            <div className="flex flex-col lg:flex-row content-around lg:w-3/4 mx-auto">
+            <div>
             <h3 className='line-break-header w-4/5 lg:w-4/6'><span>TO RATHFEIGH CHURCH</span></h3>
             
             <div className="flex w-4/5 lg:w-3/5 mx-auto text-left my-4">
@@ -33,10 +35,12 @@ const Directions = () => {
                     alt='dublin to rathfeigh church, google maps' target='_blank' rel='noreferrer' href='https://goo.gl/maps/Gm34WBvfLttL65io7'>Google Maps</a>
             </div>
 
-            <p className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto text-left text-justify mb-4">
+            <p className="w-4/5 md:w-3/5 lg:w-3/5 mx-auto text-left text-justify mb-4">
                 Rathfeigh Church is located just off the N2 between Ashbourne and Slane. The Rathfeigh turn is clearly marked. From the Dublin direction the turn will be on your left. From Monaghan the turn will be on your right. After the turn please follow our sign posts. It's only a 2 minute drive from here but the church is hidden away in a quiet part of the village.
             </p>
-            
+                </div>
+
+            <div>
             <h3 className='line-break-header w-4/5 lg:w-4/6'><span>TO TANKARDSTOWN HOUSE</span></h3>
 
             <div className="flex w-4/5 lg:w-3/5 mx-auto text-justify my-4">
@@ -65,10 +69,11 @@ const Directions = () => {
                 alt='rathfeigh church to tankardstown, google maps' target='_blank' rel='noreferrer' href='https://goo.gl/maps/BQtdnhRToQmmkoax6'>Google Maps</a>
             </div>
 
-            <p className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto text-justify pb-4">
+                    <p className="w-4/5 md:w-3/5 lg:w-3/5 mx-auto text-left text-justify mb-4">
                 Tankardstown House is located in Rathkenny, just outside Slane. It is a 25 minute drive from the church. From the church, head north on the N2 towards Slane. At Slane village crossroads, turn left and continue for 1.5km. Turn right onto the R162 just after you pass Slane Castle on your left. At the fork in the road, keep left and continue for approximately 4 - 5 mins. The venue will be on your right.           
             </p>
-
+                </div>
+            </div>
         </div>
     )
 }
