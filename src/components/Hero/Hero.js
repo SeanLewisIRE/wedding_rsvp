@@ -11,9 +11,9 @@ const Hero = () => {
             <div className="centered text-black text-xl leading-relaxed tracking-widest">
                 {/* <img src={logo} alt="wedding logo"/> */}
                 <h2>S&amp;D</h2>
-                <span className="text-black">WE ARE GETTING MARRIED!</span>
+                <span className="text-royal">WE ARE GETTING MARRIED!</span>
                 <BsFillHeartFill className="m-auto" />
-                <span>27th AUGUST 2021</span>
+                <span className="text-royal">27th AUGUST 2021</span>
             </div>
         </div>
     )

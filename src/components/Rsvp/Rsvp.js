@@ -38,7 +38,7 @@ const Rsvp = () => {
             <h2 className="text-center">RSVP</h2>
 
             <div className="text-center flex flex-col">
-                <span>Please RSVP before:</span>
+                <span>Please respond by:</span>
                 <span className="my-2"><strong>Friday 30th July</strong></span>
             </div>
 
@@ -60,12 +60,7 @@ const Rsvp = () => {
 
                 <div className="flex items-center my-2">
                     <input type="radio" id="attend_one" name="attend_radio" value="I/We will attend on Saturday 25th August." required/>
-                    <label className="px-2" htmlFor="attend_one">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th August.</label>
-                </div>
-
-                <div className="flex items-center my-2">
-                    <input type="radio" id="attend_all" name="attend_radio" value="I/We will attend on Saturday 25th and Sunday 26th August." />
-                    <label className="px-2" htmlFor="attend_all">{numberOfGuests ? "We" : "I"} will attend on Saturday 25th and Sunday 26th August.</label>
+                    <label className="px-2" htmlFor="attend_one">{numberOfGuests ? "We" : "I"} will be attending.</label>
                 </div>
 
                 <div className="flex items-center my-2">

@@ -20,9 +20,9 @@ const WhenSection = () => {
                         <div
                             className="col-start-1 col-end-5 p-4 rounded-xl my-4 mr-auto text-left md:ml-auto md:mr-0 md:text-right"
                         >
-                            <h3>CEREMONY</h3>
+                            <h3>Ceremony</h3>
                             <span className="grey">Rathfeigh Church</span>
-                            <span className="green-font block">01:30PM</span>
+                            <span className="green-font block">1:30PM</span>
                         </div>
                         <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
                             <div className="h-full w-6 flex items-center justify-center">
@@ -48,6 +48,7 @@ const WhenSection = () => {
                         >
                             <h3>Drinks Reception</h3>
                             <span className="grey">Tankardstown House</span>
+                            <span className="green-font block">3:15PM</span>
                         </div>
                     </div>
 
@@ -55,8 +56,9 @@ const WhenSection = () => {
                         <div
                             className="col-start-1 col-end-5 p-4 rounded-xl my-4 mr-auto text-left md:ml-auto md:mr-0 md:text-right"
                         >
-                            <h3>DINNER</h3>
+                            <h3>Dinner</h3>
                             <span className="grey">Tankardstown House</span>
+                            <span className="green-font block">6:15PM</span>
                         </div>
                         <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
                             <div className="h-full w-6 flex items-center justify-center">

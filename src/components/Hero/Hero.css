@@ -7,8 +7,13 @@
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.text-royal {
+    color: #000112;
+    font-size: 1.25rem;
 }
 
