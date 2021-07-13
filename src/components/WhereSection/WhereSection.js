@@ -42,7 +42,7 @@ const WhereSection = () => {
                     <h3 className='line-break-header w-full lg:w-4/5' ><span>RECEPTION</span></h3>
                 <div className="reception-container ">
                     <h4>TANKARDSTOWN HOUSE</h4>
-                        <address className="grey w-2/5 h-20 mx-auto text-xs">Rathkenny<strong> Slane</strong>, Co. Meath</address>
+                        <address className="grey w-2/5 h-20 mx-auto text-xs">Rathkenny<strong>, Slane</strong>, Co. Meath</address>
                         <img src={tankardstown} alt='tankardstown house hotel' className="h-36 w-72 md:w-80 mx-auto my-1 border border-dashed border-light-blue-500 p-1"/>
                     
                     <div className="flex flex-row items-center justify-center">
