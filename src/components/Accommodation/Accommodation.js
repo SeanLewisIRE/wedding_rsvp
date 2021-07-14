@@ -10,7 +10,7 @@ const Accommodation = () => {
 
     const accom = [
         {
-            'name': 'BOYNE HOUSE SLANE',
+            'name': 'Boyne House Slane',
             'image': boyneHouse,
             'number': '+353 41 982 4621',
             'numberHref': 'tel:+353419824621',

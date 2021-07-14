@@ -8,7 +8,7 @@ const WhenSection = () => {
             <h2>When</h2>
             <h3 className='line-break-header w-4/5 lg:w-4/6' ><span>FRIDAY 27TH AUGUST</span></h3>
 
-            <h4 className="my-2">01:30PM</h4>
+            <h4 className="my-2">1:30PM</h4>
             <p className="w-4/5 mx-auto">We invite you to join us at Rathfeigh Church for the ceremony at 1:30pm. This will be followed by a drinks reception and dinner at Tankardstown House</p>
         
             <div className="container w-4/5 mx-auto my-6">

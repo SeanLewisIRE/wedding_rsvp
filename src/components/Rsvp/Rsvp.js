@@ -64,8 +64,8 @@ const Rsvp = () => {
                 </div>
 
                 <div className="flex items-center my-2">
-                    <input  type="radio" id="no_attend" name="attend_radio" value="Unfortunatly, I am / We are unable to attend." />
-                    <label className="px-2" htmlFor="no_attend">Unfortunatly, {numberOfGuests ? "we" : "I"} will be unable to attend.</label>
+                    <input type="radio" id="no_attend" name="attend_radio" value="Unfortunately, I am / We are unable to attend." />
+                    <label className="px-2" htmlFor="no_attend">Unfortunately, {numberOfGuests ? "we" : "I"} will be unable to attend.</label>
                 </div>
 
                 <div>

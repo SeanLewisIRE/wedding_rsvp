@@ -62,7 +62,7 @@
 }
 
 .parallax{
-    background-image: url('../../static/photos/couple2.jpg');
+    background-image: url('../../static/photos/couple2.png');
     min-height: 50vh;
     background-attachment: fixed;
     background-position: center;
