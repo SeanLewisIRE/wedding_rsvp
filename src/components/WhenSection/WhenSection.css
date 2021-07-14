@@ -61,7 +61,7 @@
   border-radius: 6px;
 }
 
-.parallax{
+  .parallax{
     background-image: url('../../static/photos/couple2.png');
     min-height: 50vh;
     background-attachment: fixed;
@@ -69,4 +69,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(90%);
+  }
+
+@media (hover: none) {
+    .parallax{
+      background-attachment: scroll;
+    }
 }
