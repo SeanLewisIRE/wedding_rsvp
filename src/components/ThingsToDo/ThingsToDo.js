@@ -66,6 +66,7 @@ const ThingsToDo = () => {
                 ))}
             </div>
         </div>
+        
     )
 }
 
