@@ -7,7 +7,7 @@ const Directions = () => {
         <div className='diretions-container bg-white text-center' id="directions">
             <h2>Directions</h2>
             <div className="flex flex-col lg:flex-row content-around lg:w-3/4 mx-auto">
-                <div>
+                <div className="lg:w-2/4">
                     <h3 className='line-break-header w-4/5 lg:w-4/6'><span>TO RATHFEIGH CHURCH</span></h3>
                     
                     <div className="flex w-4/5 lg:w-3/5 mx-auto text-left my-4">
@@ -40,7 +40,7 @@ const Directions = () => {
                     </p>
                 </div>
 
-                <div>
+                <div className="lg:w-2/4">
                     <h3 className='line-break-header w-4/5 lg:w-4/6'><span>TO TANKARDSTOWN HOUSE</span></h3>
 
                     <div className="flex w-4/5 lg:w-3/5 mx-auto text-justify my-4">
